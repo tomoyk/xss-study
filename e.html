@@ -1,0 +1,5 @@
+<html><body>
+    <p>URLの35文字目以降がevalで実行される. consoleで実行される文字列を確認できる. ブラウザのキャッシュが残りやすいみたい.</p>
+    <img src=o onerror="console.log(URL.slice(35))">
+    <img src=o onerror="eval(URL.slice(35))">
+</body></html>
